@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HabitSteps" representedClassName="HabitSteps" syncable="YES" codeGenerationType="class">
+        <attribute name="duration" optional="YES" attributeType="String"/>
+        <attribute name="remindDay" optional="YES" attributeType="Transformable" customClassName="[Bool]"/>
+        <attribute name="reminder" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="serialNum" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="parentHabit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HabitTodoList" inverseName="habitSet" inverseEntity="HabitTodoList"/>
+    </entity>
+    <entity name="HabitTodoList" representedClassName=".HabitTodoList" syncable="YES" codeGenerationType="class">
+        <attribute name="habitImage" optional="YES" attributeType="String"/>
+        <attribute name="habitName" optional="YES" attributeType="String"/>
+        <relationship name="habitSet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HabitSteps" inverseName="parentHabit" inverseEntity="HabitSteps"/>
+    </entity>
+    <entity name="JournalGallery" representedClassName=".JournalGallery" syncable="YES" codeGenerationType="class">
+        <attribute name="journalDetails" optional="YES" attributeType="String"/>
+        <attribute name="journalImage" optional="YES" attributeType="Binary"/>
+        <attribute name="journalMood" optional="YES" attributeType="String"/>
+        <attribute name="journalTitle" optional="YES" attributeType="String"/>
+        <attribute name="publishedDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PhotoGallery" representedClassName=".PhotoGallery" syncable="YES" codeGenerationType="class">
+        <attribute name="moodComment" optional="YES" attributeType="String"/>
+        <attribute name="picTakenDate" optional="YES" attributeType="String"/>
+        <attribute name="savedImage" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="HabitSteps" positionX="-65.01544189453125" positionY="-75.56002807617188" width="128" height="119"/>
+        <element name="HabitTodoList" positionX="107.9263916015625" positionY="-74.76321411132812" width="128" height="88"/>
+        <element name="JournalGallery" positionX="407.7243041992188" positionY="-79.36712646484375" width="128" height="104"/>
+        <element name="PhotoGallery" positionX="259.898193359375" positionY="-77.97154235839844" width="128" height="74"/>
+    </elements>
+</model>

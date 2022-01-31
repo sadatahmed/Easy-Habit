@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480A6081279B158D00364867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A6080279B158D00364867 /* AppDelegate.swift */; };
+		480A6083279B158D00364867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A6082279B158D00364867 /* SceneDelegate.swift */; };
+		480A6085279B158D00364867 /* UserInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A6084279B158D00364867 /* UserInformationVC.swift */; };
+		480A6088279B158D00364867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480A6086279B158D00364867 /* Main.storyboard */; };
+		480A608B279B158D00364867 /* Easy_Health.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 480A6089279B158D00364867 /* Easy_Health.xcdatamodeld */; };
+		480A608D279B159300364867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480A608C279B159300364867 /* Assets.xcassets */; };
+		480A6090279B159300364867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480A608E279B159300364867 /* LaunchScreen.storyboard */; };
+		48157AFD27A1626000D4C01D /* JournalCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48157AFB27A1626000D4C01D /* JournalCVC.swift */; };
+		48157AFE27A1626000D4C01D /* JournalCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48157AFC27A1626000D4C01D /* JournalCVC.xib */; };
+		48157B0027A18FB500D4C01D /* JournalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48157AFF27A18FB400D4C01D /* JournalDetailsVC.swift */; };
+		4869BCC2279E5A9C00E771E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869BCC1279E5A9C00E771E5 /* ViewController.swift */; };
+		4869BCC4279E882900E771E5 /* GalleryInfoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869BCC3279E882900E771E5 /* GalleryInfoHandler.swift */; };
+		4869BCCE279EEE1A00E771E5 /* CustomGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869BCCD279EEE1A00E771E5 /* CustomGalleryVC.swift */; };
+		4869BCD1279EFF8500E771E5 /* CustomGalleryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869BCCF279EFF8500E771E5 /* CustomGalleryCVCell.swift */; };
+		4869BCD2279EFF8500E771E5 /* CustomGalleryCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4869BCD0279EFF8500E771E5 /* CustomGalleryCVCell.xib */; };
+		48728A6E279C62910068C7B6 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48728A6D279C62910068C7B6 /* UserInfo.swift */; };
+		487554AF27A3B4E800837F02 /* AddNewHabitStepsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487554AE27A3B4E800837F02 /* AddNewHabitStepsVC.swift */; };
+		487554B127A3BD6400837F02 /* DetailsHabitStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487554B027A3BD6400837F02 /* DetailsHabitStepsViewController.swift */; };
+		4877C80027A3FA8200D25F5B /* HabitStepsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877C7FF27A3FA8200D25F5B /* HabitStepsHandler.swift */; };
+		48798D9527A2878D004831AC /* TodoListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48798D9327A2878D004831AC /* TodoListCVC.swift */; };
+		48798D9627A2878D004831AC /* TodoListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48798D9427A2878D004831AC /* TodoListCVC.xib */; };
+		48798D9827A289B7004831AC /* HabitTodoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48798D9727A289B7004831AC /* HabitTodoListVC.swift */; };
+		48798D9A27A28FFB004831AC /* TodoListHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48798D9927A28FFB004831AC /* TodoListHandler.swift */; };
+		487B987727A0ED4A00EEDCA8 /* NewsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B987527A0ED4A00EEDCA8 /* NewsCVCell.swift */; };
+		487B987827A0ED4B00EEDCA8 /* NewsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487B987627A0ED4A00EEDCA8 /* NewsCVCell.xib */; };
+		487B987B27A0EE6C00EEDCA8 /* NewsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B987927A0EE6C00EEDCA8 /* NewsTVCell.swift */; };
+		487B987C27A0EE6C00EEDCA8 /* NewsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487B987A27A0EE6C00EEDCA8 /* NewsTVCell.xib */; };
+		487B987E27A0F41200EEDCA8 /* NewsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B987D27A0F41200EEDCA8 /* NewsHandler.swift */; };
+		487B988027A0F48B00EEDCA8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B987F27A0F48B00EEDCA8 /* NewsViewController.swift */; };
+		487B988227A0F98C00EEDCA8 /* DetailsNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B988127A0F98C00EEDCA8 /* DetailsNewsVC.swift */; };
+		487C1B4527A675D9009AFC63 /* GalleryFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C1B4427A675D9009AFC63 /* GalleryFilterViewController.swift */; };
+		487C1B4727A6DE45009AFC63 /* NewsFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C1B4627A6DE45009AFC63 /* NewsFilterViewController.swift */; };
+		487C1B4927A6E769009AFC63 /* JournalFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C1B4827A6E769009AFC63 /* JournalFilterViewController.swift */; };
+		487F9C5A27A13830001B84F0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F9C5927A13830001B84F0 /* JournalViewController.swift */; };
+		487F9C5C27A14BEE001B84F0 /* JournalInfoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F9C5B27A14BEE001B84F0 /* JournalInfoHandler.swift */; };
+		487F9C6027A15A37001B84F0 /* CreateNewJournalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F9C5F27A15A37001B84F0 /* CreateNewJournalVC.swift */; };
+		48AC0367279FE5E6008F6EF0 /* DetailsMoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC0366279FE5E6008F6EF0 /* DetailsMoodVC.swift */; };
+		48ED75EA279D8327007A594C /* DayMood.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48ED75E9279D8327007A594C /* DayMood.storyboard */; };
+		48ED75EE279D8796007A594C /* DayMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED75ED279D8796007A594C /* DayMoodViewController.swift */; };
+		48ED75F1279D9A8D007A594C /* InterfaceChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED75F0279D9A8D007A594C /* InterfaceChange.swift */; };
+		9BFBAD4BD11DA53FE9667208 /* Pods_Easy_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CFEC94C840F86F5DF04E3D /* Pods_Easy_Health.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CFEC94C840F86F5DF04E3D /* Pods_Easy_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		480A607D279B158D00364867 /* Easy Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480A6080279B158D00364867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		480A6082279B158D00364867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		480A6084279B158D00364867 /* UserInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationVC.swift; sourceTree = "<group>"; };
+		480A6087279B158D00364867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480A608A279B158D00364867 /* Easy_Health.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_Health.xcdatamodel; sourceTree = "<group>"; };
+		480A608C279B159300364867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480A608F279B159300364867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480A6091279B159300364867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48157AFB27A1626000D4C01D /* JournalCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCVC.swift; sourceTree = "<group>"; };
+		48157AFC27A1626000D4C01D /* JournalCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalCVC.xib; sourceTree = "<group>"; };
+		48157AFF27A18FB400D4C01D /* JournalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailsVC.swift; sourceTree = "<group>"; };
+		4869BCC1279E5A9C00E771E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4869BCC3279E882900E771E5 /* GalleryInfoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInfoHandler.swift; sourceTree = "<group>"; };
+		4869BCCD279EEE1A00E771E5 /* CustomGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGalleryVC.swift; sourceTree = "<group>"; };
+		4869BCCF279EFF8500E771E5 /* CustomGalleryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGalleryCVCell.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4869BCD0279EFF8500E771E5 /* CustomGalleryCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomGalleryCVCell.xib; sourceTree = "<group>"; };
+		48728A6D279C62910068C7B6 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		487554AE27A3B4E800837F02 /* AddNewHabitStepsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewHabitStepsVC.swift; sourceTree = "<group>"; };
+		487554B027A3BD6400837F02 /* DetailsHabitStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHabitStepsViewController.swift; sourceTree = "<group>"; };
+		4877C7FF27A3FA8200D25F5B /* HabitStepsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitStepsHandler.swift; sourceTree = "<group>"; };
+		48798D9327A2878D004831AC /* TodoListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCVC.swift; sourceTree = "<group>"; };
+		48798D9427A2878D004831AC /* TodoListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListCVC.xib; sourceTree = "<group>"; };
+		48798D9727A289B7004831AC /* HabitTodoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTodoListVC.swift; sourceTree = "<group>"; };
+		48798D9927A28FFB004831AC /* TodoListHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListHandler.swift; sourceTree = "<group>"; };
+		487B987527A0ED4A00EEDCA8 /* NewsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCVCell.swift; sourceTree = "<group>"; };
+		487B987627A0ED4A00EEDCA8 /* NewsCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCVCell.xib; sourceTree = "<group>"; };
+		487B987927A0EE6C00EEDCA8 /* NewsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTVCell.swift; sourceTree = "<group>"; };
+		487B987A27A0EE6C00EEDCA8 /* NewsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTVCell.xib; sourceTree = "<group>"; };
+		487B987D27A0F41200EEDCA8 /* NewsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHandler.swift; sourceTree = "<group>"; };
+		487B987F27A0F48B00EEDCA8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		487B988127A0F98C00EEDCA8 /* DetailsNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNewsVC.swift; sourceTree = "<group>"; };
+		487C1B4427A675D9009AFC63 /* GalleryFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFilterViewController.swift; sourceTree = "<group>"; };
+		487C1B4627A6DE45009AFC63 /* NewsFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFilterViewController.swift; sourceTree = "<group>"; };
+		487C1B4827A6E769009AFC63 /* JournalFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFilterViewController.swift; sourceTree = "<group>"; };
+		487F9C5927A13830001B84F0 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		487F9C5B27A14BEE001B84F0 /* JournalInfoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalInfoHandler.swift; sourceTree = "<group>"; };
+		487F9C5F27A15A37001B84F0 /* CreateNewJournalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewJournalVC.swift; sourceTree = "<group>"; };
+		48AC0366279FE5E6008F6EF0 /* DetailsMoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMoodVC.swift; sourceTree = "<group>"; };
+		48ED75E9279D8327007A594C /* DayMood.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DayMood.storyboard; sourceTree = "<group>"; };
+		48ED75ED279D8796007A594C /* DayMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMoodViewController.swift; sourceTree = "<group>"; };
+		48ED75F0279D9A8D007A594C /* InterfaceChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceChange.swift; sourceTree = "<group>"; };
+		5EED2CEA442247DD8AB12515 /* Pods-Easy Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Health.debug.xcconfig"; path = "Target Support Files/Pods-Easy Health/Pods-Easy Health.debug.xcconfig"; sourceTree = "<group>"; };
+		88CFDC7126965E8110F005C5 /* Pods-Easy Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy Health.release.xcconfig"; path = "Target Support Files/Pods-Easy Health/Pods-Easy Health.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480A607A279B158D00364867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFBAD4BD11DA53FE9667208 /* Pods_Easy_Health.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A7672A48AC6E30DCDE47CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EED2CEA442247DD8AB12515 /* Pods-Easy Health.debug.xcconfig */,
+				88CFDC7126965E8110F005C5 /* Pods-Easy Health.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		480A6074279B158D00364867 = {
+			isa = PBXGroup;
+			children = (
+				480A607F279B158D00364867 /* Easy Health */,
+				480A607E279B158D00364867 /* Products */,
+				43A7672A48AC6E30DCDE47CE /* Pods */,
+				73DAB26E62237016CCB5B537 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		480A607E279B158D00364867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480A607D279B158D00364867 /* Easy Health.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480A607F279B158D00364867 /* Easy Health */ = {
+			isa = PBXGroup;
+			children = (
+				480A6080279B158D00364867 /* AppDelegate.swift */,
+				480A6082279B158D00364867 /* SceneDelegate.swift */,
+				48728A6C279C60250068C7B6 /* Model */,
+				48728A6B279C60110068C7B6 /* View */,
+				48728A6A279C60030068C7B6 /* Controller */,
+				48ED75EF279D9A5C007A594C /* Supporting Files */,
+				480A608C279B159300364867 /* Assets.xcassets */,
+				480A608E279B159300364867 /* LaunchScreen.storyboard */,
+				480A6091279B159300364867 /* Info.plist */,
+			);
+			path = "Easy Health";
+			sourceTree = "<group>";
+		};
+		48728A6A279C60030068C7B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				480A6084279B158D00364867 /* UserInformationVC.swift */,
+				48ED75ED279D8796007A594C /* DayMoodViewController.swift */,
+				4869BCC3279E882900E771E5 /* GalleryInfoHandler.swift */,
+				4869BCCD279EEE1A00E771E5 /* CustomGalleryVC.swift */,
+				487C1B4427A675D9009AFC63 /* GalleryFilterViewController.swift */,
+				48AC0366279FE5E6008F6EF0 /* DetailsMoodVC.swift */,
+				487B987D27A0F41200EEDCA8 /* NewsHandler.swift */,
+				487B987F27A0F48B00EEDCA8 /* NewsViewController.swift */,
+				487C1B4627A6DE45009AFC63 /* NewsFilterViewController.swift */,
+				487B988127A0F98C00EEDCA8 /* DetailsNewsVC.swift */,
+				487F9C5927A13830001B84F0 /* JournalViewController.swift */,
+				487F9C5B27A14BEE001B84F0 /* JournalInfoHandler.swift */,
+				487F9C5F27A15A37001B84F0 /* CreateNewJournalVC.swift */,
+				48157AFF27A18FB400D4C01D /* JournalDetailsVC.swift */,
+				487C1B4827A6E769009AFC63 /* JournalFilterViewController.swift */,
+				48798D9927A28FFB004831AC /* TodoListHandler.swift */,
+				487554B027A3BD6400837F02 /* DetailsHabitStepsViewController.swift */,
+				48798D9727A289B7004831AC /* HabitTodoListVC.swift */,
+				487554AE27A3B4E800837F02 /* AddNewHabitStepsVC.swift */,
+				4877C7FF27A3FA8200D25F5B /* HabitStepsHandler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48728A6B279C60110068C7B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				480A6086279B158D00364867 /* Main.storyboard */,
+				48ED75E9279D8327007A594C /* DayMood.storyboard */,
+				4869BCCF279EFF8500E771E5 /* CustomGalleryCVCell.swift */,
+				4869BCD0279EFF8500E771E5 /* CustomGalleryCVCell.xib */,
+				487B987527A0ED4A00EEDCA8 /* NewsCVCell.swift */,
+				487B987627A0ED4A00EEDCA8 /* NewsCVCell.xib */,
+				487B987927A0EE6C00EEDCA8 /* NewsTVCell.swift */,
+				487B987A27A0EE6C00EEDCA8 /* NewsTVCell.xib */,
+				48157AFB27A1626000D4C01D /* JournalCVC.swift */,
+				48157AFC27A1626000D4C01D /* JournalCVC.xib */,
+				48798D9327A2878D004831AC /* TodoListCVC.swift */,
+				48798D9427A2878D004831AC /* TodoListCVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48728A6C279C60250068C7B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48728A6D279C62910068C7B6 /* UserInfo.swift */,
+				480A6089279B158D00364867 /* Easy_Health.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48ED75EF279D9A5C007A594C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48ED75F0279D9A8D007A594C /* InterfaceChange.swift */,
+				4869BCC1279E5A9C00E771E5 /* ViewController.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73DAB26E62237016CCB5B537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CFEC94C840F86F5DF04E3D /* Pods_Easy_Health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480A607C279B158D00364867 /* Easy Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480A6094279B159300364867 /* Build configuration list for PBXNativeTarget "Easy Health" */;
+			buildPhases = (
+				3A0B7FB5A67FA719B2ADEA28 /* [CP] Check Pods Manifest.lock */,
+				480A6079279B158D00364867 /* Sources */,
+				480A607A279B158D00364867 /* Frameworks */,
+				480A607B279B158D00364867 /* Resources */,
+				14D16C505A38B1EB5AA02A19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Health";
+			productName = "Easy Health";
+			productReference = 480A607D279B158D00364867 /* Easy Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480A6075279B158D00364867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					480A607C279B158D00364867 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 480A6078279B158D00364867 /* Build configuration list for PBXProject "Easy Health" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480A6074279B158D00364867;
+			productRefGroup = 480A607E279B158D00364867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480A607C279B158D00364867 /* Easy Health */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480A607B279B158D00364867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4869BCD2279EFF8500E771E5 /* CustomGalleryCVCell.xib in Resources */,
+				487B987C27A0EE6C00EEDCA8 /* NewsTVCell.xib in Resources */,
+				480A6090279B159300364867 /* LaunchScreen.storyboard in Resources */,
+				480A608D279B159300364867 /* Assets.xcassets in Resources */,
+				48798D9627A2878D004831AC /* TodoListCVC.xib in Resources */,
+				48ED75EA279D8327007A594C /* DayMood.storyboard in Resources */,
+				480A6088279B158D00364867 /* Main.storyboard in Resources */,
+				48157AFE27A1626000D4C01D /* JournalCVC.xib in Resources */,
+				487B987827A0ED4B00EEDCA8 /* NewsCVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D16C505A38B1EB5AA02A19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Easy Health/Pods-Easy Health-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Easy Health/Pods-Easy Health-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Easy Health/Pods-Easy Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0B7FB5A67FA719B2ADEA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480A6079279B158D00364867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AC0367279FE5E6008F6EF0 /* DetailsMoodVC.swift in Sources */,
+				4869BCD1279EFF8500E771E5 /* CustomGalleryCVCell.swift in Sources */,
+				487F9C6027A15A37001B84F0 /* CreateNewJournalVC.swift in Sources */,
+				4869BCC4279E882900E771E5 /* GalleryInfoHandler.swift in Sources */,
+				4877C80027A3FA8200D25F5B /* HabitStepsHandler.swift in Sources */,
+				480A6085279B158D00364867 /* UserInformationVC.swift in Sources */,
+				480A6081279B158D00364867 /* AppDelegate.swift in Sources */,
+				480A6083279B158D00364867 /* SceneDelegate.swift in Sources */,
+				487554B127A3BD6400837F02 /* DetailsHabitStepsViewController.swift in Sources */,
+				4869BCCE279EEE1A00E771E5 /* CustomGalleryVC.swift in Sources */,
+				487B987727A0ED4A00EEDCA8 /* NewsCVCell.swift in Sources */,
+				48ED75F1279D9A8D007A594C /* InterfaceChange.swift in Sources */,
+				48798D9527A2878D004831AC /* TodoListCVC.swift in Sources */,
+				48728A6E279C62910068C7B6 /* UserInfo.swift in Sources */,
+				48ED75EE279D8796007A594C /* DayMoodViewController.swift in Sources */,
+				487C1B4927A6E769009AFC63 /* JournalFilterViewController.swift in Sources */,
+				487F9C5C27A14BEE001B84F0 /* JournalInfoHandler.swift in Sources */,
+				48157B0027A18FB500D4C01D /* JournalDetailsVC.swift in Sources */,
+				487554AF27A3B4E800837F02 /* AddNewHabitStepsVC.swift in Sources */,
+				487B987E27A0F41200EEDCA8 /* NewsHandler.swift in Sources */,
+				4869BCC2279E5A9C00E771E5 /* ViewController.swift in Sources */,
+				487B987B27A0EE6C00EEDCA8 /* NewsTVCell.swift in Sources */,
+				48157AFD27A1626000D4C01D /* JournalCVC.swift in Sources */,
+				48798D9A27A28FFB004831AC /* TodoListHandler.swift in Sources */,
+				48798D9827A289B7004831AC /* HabitTodoListVC.swift in Sources */,
+				480A608B279B158D00364867 /* Easy_Health.xcdatamodeld in Sources */,
+				487C1B4727A6DE45009AFC63 /* NewsFilterViewController.swift in Sources */,
+				487F9C5A27A13830001B84F0 /* JournalViewController.swift in Sources */,
+				487C1B4527A675D9009AFC63 /* GalleryFilterViewController.swift in Sources */,
+				487B988027A0F48B00EEDCA8 /* NewsViewController.swift in Sources */,
+				487B988227A0F98C00EEDCA8 /* DetailsNewsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		480A6086279B158D00364867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480A6087279B158D00364867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480A608E279B159300364867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480A608F279B159300364867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480A6092279B159300364867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		480A6093279B159300364867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480A6095279B159300364867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EED2CEA442247DD8AB12515 /* Pods-Easy Health.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy Health/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bjitgroup.Easy-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480A6096279B159300364867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CFDC7126965E8110F005C5 /* Pods-Easy Health.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Easy Health/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bjitgroup.Easy-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480A6078279B158D00364867 /* Build configuration list for PBXProject "Easy Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480A6092279B159300364867 /* Debug */,
+				480A6093279B159300364867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480A6094279B159300364867 /* Build configuration list for PBXNativeTarget "Easy Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480A6095279B159300364867 /* Debug */,
+				480A6096279B159300364867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		480A6089279B158D00364867 /* Easy_Health.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				480A608A279B158D00364867 /* Easy_Health.xcdatamodel */,
+			);
+			currentVersion = 480A608A279B158D00364867 /* Easy_Health.xcdatamodel */;
+			path = Easy_Health.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 480A6075279B158D00364867 /* Project object */;
+}
